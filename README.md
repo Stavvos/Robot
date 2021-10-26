@@ -3,7 +3,9 @@
  
  The robot is a simple 3-wheeled car. Two of the wheels are powered by dc motors. The third wheel acts
  as a support and steering wheel. 
-
+ 
+ The two DC motors are controlled by the GPIO pins of the raspberry pi, a L298N chip, and  wireless computer keyboard.
+ The two DC motors are powered by a battery pack. 
 
 This program needs to be run from the terminal in order for it to work. Using the commands 'dir', 'cd' and 'python' will help
 acheive this. 
